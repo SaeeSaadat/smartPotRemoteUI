@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "mqtt": "^5.0.3"
+  },
+  "name": "remotefrontend",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js -o dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
